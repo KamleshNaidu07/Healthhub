@@ -17,14 +17,33 @@ HealthHub is a web application that helps users track their daily health and fit
 
 ## Installation
 
+### Client
+
 1. Clone the repository
-2. Install dependencies with `npm install`
-3. Start the server with `npm start`
-4. Open the app in your browser at `http://localhost:3000`
+2. Navigate to the client directory: `cd client`
+3. Install dependencies with `npm install`
+4. Start the client with `ng serve`
+5. Open the app in your browser at `http://localhost:4200`
+
+### Server
+
+1. Clone the repository
+2. Navigate to the server directory: `cd server`
+3. Install dependencies with `npm install`
+4. Start the server with `npm start`
+5. Open the app in your browser at `http://localhost:3000`
 
 ## Contributing
 
-Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) before submitting a pull request.
+We welcome contributions to HealthHub! To contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a branch for your feature or bug fix: `git checkout -b feature/your-feature` or `git checkout -b bugfix/your-bugfix`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'` or `git commit -m 'Fix some bug'`.
+4. Push your changes to your branch: `git push origin feature/your-feature` or `git push origin bugfix/your-bugfix`.
+5. Submit a pull request against the `main` branch.
+
+Please make sure your code adheres to our coding conventions and has appropriate test coverage.
 
 ## License
 
