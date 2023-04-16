@@ -1,0 +1,61 @@
+# IDE files
+.vscode/
+.idea/
+
+# Node.js dependencies
+node_modules/
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Build artifacts
+dist/
+out-tsc/
+tmp/
+*.o
+*.pyc
+
+# Configuration files
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Testing
+coverage/
+
+# Editor configuration
+.editorconfig
+
+# Logs
+logs/
+*.log
+
+# Output of `npm run build`
+build/
+
+# MySQL database dump
+*.sql
+
+# Other
+*.bak
+*.swp
+.DS_Store
+
+# Visual Studio Code
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+Thumbs.db
